@@ -1,0 +1,15 @@
+env creation:
+
+conda create -n cosmoparam python
+conda activate cosmoparam
+conda install numpy matplotlib scipy spyder jupyter
+conda install -c conda-forge camb
+pip install chainconsumer
+
+to use:
+1. go into anaconda prompt
+2. activate cosmoparam env
+3. run: `jupyter notebook`
+
+
+
